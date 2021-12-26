@@ -1,0 +1,116 @@
+.topnav
+{
+overflow: hidden;
+display: flex;
+justify-content: space-between;
+/* background-color:#AFAFB3;*/
+background: linear-gradient(rgba(200, 200, 200, 0.6), rgba(255, 255, 255, 0.8), rgba(200, 200, 200, 0.4));
+width: 100%;
+position: fixed;
+z-index: 999; 
+align-items: center;
+padding: 0 20px; 
+}
+
+.topnav a
+{
+float: left;
+color: black;
+clear: right;
+text-align: center;
+padding: 15px 20px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover
+{
+background-color: #6B6BDB;
+color: white;
+transform: scale(1.1); 
+}
+
+
+.logoimage
+{
+height: 100%;
+display: block;
+align-items: center;
+cursor: pointer;
+object-fit: cover;
+}
+
+.zoom:hover
+{
+transform: scale(1.1); 
+cursor: pointer; 
+}
+
+.zoom1
+{
+    display: none;
+}
+.zoom1:hover
+{
+transform: scale(1.1); 
+cursor: pointer; 
+}
+
+.topnav_menu1
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    z-index: 999;
+    background-color: #AFAFB3;
+    margin-top: 500px;
+    width: 25%;
+    right:0;
+    align-items: center;
+}
+
+.hidden
+{
+display: none !important;
+}
+
+@media only screen and (min-width: 1101px) and (max-width:1360px) 
+{
+    .topnav a {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 981px) and (max-width:1100px) 
+{
+    .topnav a {
+        font-size: 12px;
+    }
+
+}
+
+@media only screen  and (min-width: 851px) and (max-width:980px) 
+{
+    .topnav a {
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width:850px) 
+{
+    .zoom1
+    {
+        display: block;
+    }
+    .topnav_menu {
+        display: none;
+    }
+
+    .logoimage{
+        padding: 10px;
+    }
+
+}

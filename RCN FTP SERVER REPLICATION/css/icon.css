@@ -1,0 +1,219 @@
+.h
+{
+  text-align: center; color: black;
+  font-size: 30px;
+}
+.fa-file-video:hover
+{
+transform: scale(1.1); 
+color: white;
+}
+
+.fa-tv:hover
+{
+transform: scale(1.1); 
+color: white;
+}
+
+.fa-gamepad:hover
+{
+transform: scale(1.1);
+color: white; 
+}
+
+.fa-uncharted:hover
+{
+transform: scale(1.1); 
+color: white;
+}
+
+.fa-laptop-house:hover
+{
+transform: scale(1.1); 
+color: white;
+}
+
+.fa-address-book:hover
+{
+transform: scale(1.1); 
+color: white;
+}
+
+.w3-gray
+{
+border-radius:35px;
+text-align: center; height: 200px; width: 200px;
+}
+.card-title:hover
+{
+border-radius:35px;
+color: white;
+}
+.fa-file-video
+{
+font-size:80px;margin-top: 45px;
+}
+
+.fa-tv
+{
+font-size:80px;margin-top: 45px;
+}
+
+.fa-gamepad
+{
+font-size:80px;margin-top: 45px;
+}
+
+.fa-uncharted
+{
+font-size:80px;margin-top: 45px;
+}
+
+.fa-laptop-house
+{
+font-size:80px;margin-top: 45px;
+}
+
+.fa-address-book
+{
+font-size:80px;margin-top: 45px;
+}
+@media only screen and (max-width: 350px)
+{
+.w3-gray
+{
+height: 50px; width: 50px;
+}
+.fa-file-video
+{
+font-size:40px;margin-top: 20px;
+}
+
+.fa-tv
+{
+font-size:40px;margin-top: 20px;
+}
+
+.fa-gamepad
+{
+font-size:40px;margin-top: 20px;
+}
+
+.fa-uncharted
+{
+font-size:40px;margin-top: 20px;
+}
+
+.fa-laptop-house
+{
+font-size:40px;margin-top: 20px;
+}
+
+.fa-address-book
+{
+font-size:40px;margin-top: 20px;
+}
+}
+@media only screen and (min-width: 351px) and (max-width: 750px)
+{
+.w3-gray
+{
+height: 100px; width: 100px;
+}
+.fa-file-video
+{
+font-size:50px;margin-top: 25px;
+}
+
+.fa-tv
+{
+  font-size:50px;margin-top: 25px;
+}
+
+.fa-gamepad
+{
+  font-size:50px;margin-top: 25px;
+}
+
+.fa-uncharted
+{
+  font-size:50px;margin-top: 25px;
+}
+
+.fa-laptop-house
+{
+  font-size:50px;margin-top: 25px;
+}
+
+.fa-address-book
+{
+  font-size:50px;margin-top: 25px;
+}
+}
+@media only screen and (min-width: 751px) and (max-width: 1250px)
+{
+.w3-gray
+{
+height: 150px; width: 150px;
+
+}
+.fa-file-video
+{
+font-size:60px;margin-top: 25px;
+}
+.fa-tv
+{
+  font-size:60px;margin-top: 25px;
+}
+
+.fa-gamepad
+{
+  font-size:50px;margin-top: 25px;
+}
+
+.fa-uncharted
+{
+  font-size:60px;margin-top: 25px;
+}
+
+.fa-laptop-house
+{
+  font-size:60px;margin-top: 25px;
+}
+
+.fa-address-book
+{
+  font-size:60px;margin-top: 25px;
+}
+}
+@media only screen and (min-width: 1251px) and (max-width: 1550px)
+{
+.w3-gray
+{
+height: 200px; width: 200px;
+}
+.fa-tv
+{
+  font-size:70px;margin-top: 25px;
+}
+
+.fa-gamepad
+{
+  font-size:70px;margin-top: 25px;
+}
+
+.fa-uncharted
+{
+  font-size:70px;margin-top: 25px;
+}
+
+.fa-laptop-house
+{
+  font-size:70px;margin-top: 25px;
+}
+
+.fa-address-book
+{
+  font-size:70px;margin-top: 25px;
+}
+}

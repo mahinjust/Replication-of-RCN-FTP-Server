@@ -1,0 +1,455 @@
+#11
+{
+border-radius:25px;
+cursor: pointer;
+display: none;
+}
+#12
+{
+border-radius:25px; 
+cursor: pointer;
+display: none;
+}
+#myDIV
+{
+text-align: center;
+grid-template-columns: 50% 50%;
+background-color: white;
+padding-left: 15px;
+}
+.container
+{
+display: flex;
+justify-content: center;
+width: 100vw;
+}
+.container1
+{
+width: 25%;
+}
+
+.container2
+{
+border: 2px solid gray ;
+border-radius: 45px;
+width: 100%;
+margin: 50px;
+font-size: 1.3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 25px;
+}
+
+.btn1
+{
+border-radius:25px ;
+border-color: gray;
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+margin: 4px 2px;
+cursor: pointer;
+background-color: #008CBA;
+width: 100%;
+}
+.btn1:hover
+{
+color: white;
+transform: scale(1.1); 
+}
+#bt1
+{
+font-size: 1.3rem;
+}
+.hidden
+{
+display: none !important;
+}
+.pa
+{
+text-align:center; 
+color:black;
+object-fit: cover;
+font-size:30px;
+}
+.ma
+{
+margin: 50px;
+text-align:center; 
+color:black;
+object-fit: cover;
+font-size:15px;
+}
+.ba
+{
+margin: 40px;
+text-align:center; 
+color:black;
+object-fit: cover;
+font-size:15px;
+}
+@media only screen and (max-width: 350px) 
+{
+.ma
+{
+text-align:center;
+margin: -15px; 
+color:black;
+font-size:6px;
+object-fit: cover;
+}
+.ba
+{
+text-align:center; 
+color:black;
+margin: -15px;
+object-fit: cover;
+font-size:6px;
+}
+#11
+{
+border-radius:25px;
+cursor: pointer;
+display: none;
+}
+#12
+{
+border-radius:25px; 
+cursor: pointer;
+display: none;
+}
+#myDIV
+{
+text-align: center;
+grid-template-columns: 50% 50%;
+background-color: white;
+padding-left: 10px;
+}
+.container
+{
+display: flex;
+justify-content: center;
+width: 100vw;
+}
+.container1
+{
+width: 25%;
+}
+
+.container2
+{
+border: 2px solid gray ;
+border-radius: 25px;
+width: 100%;
+margin: 50px;
+font-size: 0.5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 15px;
+}
+
+.btn1
+{
+border-radius:25px ;
+border-color: gray;
+color: black;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 10px;
+margin: 4px 4px;
+cursor: pointer;
+background-color: #008CBA;
+width: 50%;
+}
+.btn1:hover
+{
+color: white;
+transform: scale(1.1); 
+}
+#bt1
+{
+font-size: 0.5rem;
+}
+.hidden
+{
+display: none !important;
+}
+}
+@media only screen and (min-width: 351px) and (max-width: 750px)
+{
+    .ma
+    {
+    text-align:center;
+    margin: 15px; 
+    color:black;
+    font-size:10px;
+    object-fit: cover;
+    }
+    .ba
+    {
+    text-align:center; 
+    color:black;
+    margin: 10px;
+    object-fit: cover;
+    font-size:9px;
+    }
+    #11
+    {
+    border-radius:25px;
+    cursor: pointer;
+    display: none;
+    }
+    #12
+    {
+    border-radius:25px; 
+    cursor: pointer;
+    display: none;
+    }
+    #myDIV
+    {
+    text-align: center;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    padding-left: 10px;
+    }
+    .container
+    {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    }
+    .container1
+    {
+    width: 20%;
+    }
+    
+    .container2
+    {
+    border: 2px solid gray ;
+    border-radius: 25px;
+    width: 100%;
+    margin: 50px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    }
+    
+    .btn1
+    {
+    border-radius:25px ;
+    border-color: gray;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 7px;
+    margin: 4px 4px;
+    cursor: pointer;
+    background-color: #008CBA;
+    width: 100%;
+    }
+    .btn1:hover
+    {
+    color: white;
+    transform: scale(1.1); 
+    }
+    #bt1
+    {
+    font-size: 1.1rem;
+    }
+    .hidden
+    {
+    display: none !important;
+    }
+}
+@media only screen and (min-width: 751px) and (max-width: 1250px)
+{
+    .ma
+    {
+    text-align:center;
+    margin: 45px; 
+    color:black;
+    font-size:8px;
+    object-fit: cover;
+    }
+    .ba
+    {
+    text-align:center; 
+    color:black;
+    margin: 35px;
+    object-fit: cover;
+    font-size:8px;
+    }
+    #11
+    {
+    border-radius:25px;
+    cursor: pointer;
+    display: none;
+    }
+    #12
+    {
+    border-radius:25px; 
+    cursor: pointer;
+    display: none;
+    }
+    #myDIV
+    {
+    text-align: center;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    padding-left: 10px;
+    }
+    .container
+    {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    }
+    .container1
+    {
+    width: 45%;
+    }
+    
+    .container2
+    {
+    border: 2px solid gray ;
+    border-radius: 25px;
+    width: 100%;
+    margin: 50px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    }
+    
+    .btn1
+    {
+    border-radius:25px ;
+    border-color: gray;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    margin: 4px 4px;
+    cursor: pointer;
+    background-color: #008CBA;
+    width: 50%;
+    }
+    .btn1:hover
+    {
+    color: white;
+    transform: scale(1.1); 
+    }
+    #bt1
+    {
+    font-size: 1.1rem;
+    }
+    .hidden
+    {
+    display: none !important;
+    }
+}
+
+@media only screen and (min-width: 1251px) and (max-width: 1550px)
+{
+    .ma
+    {
+    text-align:center;
+    margin: 55px; 
+    color:black;
+    font-size:12px;
+    object-fit: cover;
+    }
+    .ba
+    {
+    text-align:center; 
+    color:black;
+    margin: 45px;
+    object-fit: cover;
+    font-size:12px;
+    }
+    #11
+    {
+    border-radius:25px;
+    cursor: pointer;
+    display: none;
+    }
+    #12
+    {
+    border-radius:25px; 
+    cursor: pointer;
+    display: none;
+    }
+    #myDIV
+    {
+    text-align: center;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    padding-left: 10px;
+    }
+    .container
+    {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    }
+    .container1
+    {
+    width: 35%;
+    }
+    
+    .container2
+    {
+    border: 2px solid gray ;
+    border-radius: 25px;
+    width: 100%;
+    margin: 50px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    }
+    
+    .btn1
+    {
+    border-radius:25px ;
+    border-color: gray;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 4px;
+    cursor: pointer;
+    background-color: #008CBA;
+    width: 50%;
+    }
+    .btn1:hover
+    {
+    color: white;
+    transform: scale(1.1); 
+    }
+    #bt1
+    {
+    font-size: 1.2rem;
+    }
+    .hidden
+    {
+    display: none !important;
+    }
+}
